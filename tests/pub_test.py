@@ -1,6 +1,7 @@
 import unittest
 from src.pub import Pub
 
+
 class TestPub(unittest.TestCase):
     
     def setUp(self):
@@ -10,7 +11,10 @@ class TestPub(unittest.TestCase):
         self.assertEqual("The parncing pony", self.pub.name)
 
     def test_pub_increase_money(self):
-        increase_money= 5
-        self.assertEqual(100, self.pub.cash)
+        increase_money= 
+        # self.assertEqual(100, self.pub.cash)
+        assert increase_money = 100
 
-    
+    def test_recieve_drink(self, reduce_stock):
+        reduce_stock== -1
+        self.assetEqual(-1, self.pub)
