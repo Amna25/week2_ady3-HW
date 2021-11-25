@@ -8,3 +8,9 @@ class TestPub(unittest.TestCase):
 
     def test_pub_has_name(self):
         self.assertEqual("The parncing pony", self.pub.name)
+
+    def test_pub_increase_money(self):
+        increase_money= 5
+        self.assertEqual(100, self.pub.cash)
+
+    

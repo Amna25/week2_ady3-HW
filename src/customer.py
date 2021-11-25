@@ -4,3 +4,7 @@ class Customer:
         self.stomach= []
         self.wallet= wallet
 
+    def customer_buy_drink(self, amount):
+        self.wallet -=  amount
+        
+    
